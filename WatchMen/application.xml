@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/18.0">
+  <id>WatchMen</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>WatchMen</filename>
+  <name>WatchMen</name>
+  <initialWindow>
+    <title>WatchMen</title>
+    <content>WatchMen.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>true</resizable>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <icon>
+    <image16x16>icons/WatchMen16.png</image16x16>
+    <image29x29>icons/WatchMen29.png</image29x29>
+    <image32x32>icons/WatchMen32.png</image32x32>
+    <image36x36>icons/WatchMen36.png</image36x36>
+    <image48x48>icons/WatchMen48.png</image48x48>
+    <image57x57>icons/WatchMen57.png</image57x57>
+    <image72x72>icons/WatchMen72.png</image72x72>
+    <image76x76>icons/WatchMen76.png</image76x76>
+    <image80x80>icons/WatchMen80.png</image80x80>
+    <image96x96>icons/WatchMen96.png</image96x96>
+    <image114x114>icons/WatchMen114.png</image114x114>
+    <image120x120>icons/WatchMen120.png</image120x120>
+    <image128x128>icons/WatchMen128.png</image128x128>
+    <image144x144>icons/WatchMen144.png</image144x144>
+    <image152x152>icons/WatchMen152.png</image152x152>
+    <image192x192>icons/WatchMen192.png</image192x192>
+    <image512x512>icons/WatchMen512.png</image512x512>
+  </icon>
+  <android>
+    <manifestAdditions><![CDATA[<manifest android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android" />]]></manifestAdditions>
+  </android>
+</application>

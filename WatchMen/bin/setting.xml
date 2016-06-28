@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<item>Hello world!</item>
+	<!-- 間隔（秒） -->
+	<interval>1</interval>
+</data>
