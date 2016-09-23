@@ -3,18 +3,20 @@
 <!--Any modifications you make may be lost.-->
 <flex-config>
   <target-player>18.0</target-player>
+  <benchmark>false</benchmark>
+  <static-link-runtime-shared-libraries>true</static-link-runtime-shared-libraries>
   <compiler>
     <define append="true">
       <name>CONFIG::debug</name>
-      <value>true</value>
-    </define>
-    <define append="true">
-      <name>CONFIG::release</name>
       <value>false</value>
     </define>
     <define append="true">
+      <name>CONFIG::release</name>
+      <value>true</value>
+    </define>
+    <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'2016/06/28'</value>
+      <value>'2016/09/23'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -28,17 +30,19 @@
       <name>CONFIG::desktop</name>
       <value>true</value>
     </define>
-    <verbose-stacktraces>true</verbose-stacktraces>
+    <optimize>true</optimize>
+    <omit-trace-statements>true</omit-trace-statements>
+    <verbose-stacktraces>false</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\umehara\OneDrive\studies\1602\WatchMen\src</path-element>
+      <path-element>C:\Users\umehara\Documents\GitHub\WatchMen\WatchMen\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>C:\Users\umehara\OneDrive\studies\1602\WatchMen\lib\BulkLoader-rev-282.swc</path-element>
+      <path-element>C:\Users\umehara\Documents\GitHub\WatchMen\WatchMen\lib\BulkLoader-rev-282.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\umehara\OneDrive\studies\1602\WatchMen\src\Main.as</path-element>
+    <path-element>C:\Users\umehara\Documents\GitHub\WatchMen\WatchMen\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#000000</default-background-color>
   <default-frame-rate>30</default-frame-rate>

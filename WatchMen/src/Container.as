@@ -129,7 +129,9 @@ package
 				_erroeTF.text = e.errorID + e.name+e.message;
 			}
 			
-			if (_count % (30*60) == 0) {
+			if (_count % (30 * 60) == 0) {
+				text = text.replace(/\n/g, "\r\n");
+				
 				var stream:FileStream = new FileStream();
 				stream.open(_documentsDirectory, FileMode.WRITE);
 				stream.writeUTFBytes(text);
